@@ -25,4 +25,4 @@ To get a local copy up and running, follow these steps.
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/echoverse.git](https://github.com/PrathamShailesh/EchoVerse.git)
+   git clone https://github.com/PrathamShailesh/EchoVerse.git
