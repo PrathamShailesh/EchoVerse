@@ -1,3 +1,4 @@
+// PlaylistScreen.js
 import React from 'react';
 import { View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
 
@@ -9,10 +10,10 @@ const songs = [
 ];
 
 const PlaylistScreen = ({ navigation }) => {
-  const renderItem = ({ item }) => (
+  const renderItem = ({ item, index }) => (
     <TouchableOpacity
       style={styles.songItem}
-      onPress={() => navigation.navigate('Player', { songTitle: item.title })}
+      onPress={() => navigation.navigate('Player', { songId: item.id })}
     >
       <Text style={styles.songTitle}>{item.title}</Text>
     </TouchableOpacity>
